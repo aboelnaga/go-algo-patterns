@@ -29,30 +29,31 @@
 
 ### 0.1 Big O Notation
 
-- [ ] **Concept: Time Complexity Basics** — Easy
+- [x] **Concept: Time Complexity Basics** — Easy
   - Focus: What does O(n), O(log n), O(n²) mean visually and intuitively?
   - Exercise: Given a for loop nested inside another, derive the complexity. No code, just reasoning.
   - Visual: https://www.bigocheatsheet.com/ — study the chart at the top
   - Levels: N/A (concept study)
-  - First studied: _____ | Last reviewed: _____
+  - First studied: 2026-02-21 | Last reviewed: _____
 
-- [ ] **Concept: Space Complexity Basics** — Easy
+- [x] **Concept: Space Complexity Basics** — Easy
   - Focus: What memory does your program use? Stack vs heap, input space vs auxiliary space.
   - Exercise: Trace through a recursive function and count stack frames.
   - Levels: N/A (concept study)
-  - First studied: _____ | Last reviewed: _____
+  - First studied: 2026-02-23 | Last reviewed: _____
 
-- [ ] **Concept: Best / Average / Worst Case** — Easy
+- [x] **Concept: Best / Average / Worst Case** — Easy
   - Focus: Why we almost always discuss worst case. When average case matters.
   - Exercise: Analyze linear search in all three cases.
   - Levels: N/A (concept study)
-  - First studied: _____ | Last reviewed: _____
+  - First studied: 2026-02-23 | Last reviewed: _____
 
-- [ ] **Concept: Comparing Complexities** — Easy
+- [x] **Concept: Comparing Complexities** — Easy
   - Focus: Ordering — O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ) < O(n!)
   - Exercise: For each algorithm you write going forward, always ask: where is the bottleneck?
   - Levels: N/A (concept study)
-  - First studied: _____ | Last reviewed: _____
+  - First studied: 2026-02-23 | Last reviewed: _____
+  - Notes: notes/phase0.1_big_o.md
 
 ### 0.2 Go Basics for DSA
 

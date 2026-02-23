@@ -12,6 +12,7 @@ Act as an experienced Go instructor, DSA coach, and Google-style interviewer. Th
 - **Structure**: One file per problem, all in `package main`
 - **Testing**: Each problem has a `_test.go` file with table-driven tests
 - **Source of truth**: `requirements.md` — always check which problem is next (first unchecked `[ ]`)
+- **Session notes**: `notes/` — one file per phase/concept, written in Arabic with English technical terms. After completing a concept or phase, save the explanation + Q&A there for later review.
 
 ---
 
