@@ -55,7 +55,39 @@
   - First studied: 2026-02-23 | Last reviewed: _____
   - Notes: notes/phase0.1_big_o.md
 
-### 0.2 Go Basics for DSA
+### 0.2 Go Language Fundamentals
+
+- [x] **Concept: Variables and Constants** — Easy
+  - Focus: `var` vs `:=`, Zero Values, `const` and `iota`, scope and shadowing
+  - Exercise: Declare variables using both styles, observe zero values, use `iota` to define a named set of constants (e.g., directions: North, South, East, West).
+  - Levels: N/A (concept study)
+  - First studied: 2026-02-28 | Last reviewed: _____
+
+- [x] **Concept: Numeric Types and Booleans** — Easy
+  - Focus: Signed integers (`int`, `int8/16/32/64`), unsigned (`uint`, `uint8/16/32/64`), `float32`/`float64`, `complex64`/`complex128`, `bool`, `rune` (alias for `int32`). Type conversions are always explicit in Go — never implicit.
+  - Exercise: Try adding an `int` and an `int64` without conversion — observe the compile error. Then fix it with explicit conversion.
+  - Levels: N/A (concept study)
+  - First studied: 2026-02-28 | Last reviewed: _____
+
+- [x] **Concept: Strings in Go** — Easy
+  - Focus: Interpreted string literals (`"..."` — supports escape sequences like `\n`) vs raw string literals (`` `...` `` — no escaping, can span lines). Strings are immutable byte sequences. Iterating with `range` gives runes; indexing gives bytes. Type conversions: `string ↔ []byte`, `string ↔ []rune`.
+  - Exercise: Iterate over a string containing an Arabic or emoji character — compare `range` (rune) vs index (byte) iteration.
+  - Levels: N/A (concept study)
+  - First studied: 2026-02-28 | Last reviewed: _____
+
+- [x] **Concept: Functions in Go** — Easy
+  - Focus: Function syntax, multiple return values (the Go way), named returns, variadic functions (`...`). Why multiple returns replace exceptions in Go.
+  - Exercise: Write a `divide(a, b int) (int, error)` function that returns an error when b is zero.
+  - Levels: N/A (concept study)
+  - First studied: 2026-02-28 | Last reviewed: _____
+
+- [x] **Concept: Control Flow in Go** — Easy
+  - Focus: `for` is the only loop (no `while`, no `do-while`). Four forms: classic `for`, while-style `for`, infinite `for {}`, and `for range`. `if/else` with optional init statement. `switch` without fallthrough by default.
+  - Exercise: Rewrite a classic `while` loop using Go's `for`. Use `for range` to iterate over a slice and a map.
+  - Levels: N/A (concept study)
+  - First studied: 2026-03-01 | Last reviewed: _____
+
+### 0.3 Go Basics for DSA
 
 - [ ] **Concept: Slices vs Arrays in Go** — Easy
   - Focus: How Go slices work under the hood. Append, length, capacity. Why this matters for DSA.
@@ -78,7 +110,7 @@
   - Levels: [B] [ ] [O] [ ] [M] [ ]
   - First solved: _____ | Last reviewed: _____
 
-### 0.3 Recursion Basics
+### 0.4 Recursion Basics
 
 - [ ] **Concept: The Call Stack** — Easy
   - Focus: How function calls stack up. Base case vs recursive case. What happens without a base case.
@@ -864,7 +896,7 @@
 
 | Phase | Total | Attempted | Brute Only | Optimal | Most Optimized |
 |-------|-------|-----------|------------|---------|----------------|
-| Phase 0 — Foundations | 9 | | | | |
+| Phase 0 — Foundations | 14 | | | | |
 | Phase 1 — Arrays & Hashing | 8 | | | | |
 | Phase 2 — Two Pointers | 5 | | | | |
 | Phase 3 — Sliding Window | 6 | | | | |
