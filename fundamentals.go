@@ -14,14 +14,6 @@ const (
 	West
 )
 
-func main() {
-	// fundamentals()
-	// fundamentals2()
-	// fundamentals3()
-	// fundamentals4()
-	fundamentals5()
-}
-
 func other() {
 	fmt.Println(a) // [2] ?
 }

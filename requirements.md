@@ -89,12 +89,12 @@
 
 ### 0.3 Go Basics for DSA
 
-- [ ] **Concept: Slices vs Arrays in Go** — Easy
+- [x] **Concept: Slices vs Arrays in Go** — Easy
   - Focus: How Go slices work under the hood. Append, length, capacity. Why this matters for DSA.
   - Exercise: Write a function that doubles a slice without modifying the original.
   - File: `slice_basics.go` + `slice_basics_test.go`
-  - Levels: [B] [ ] [O] [ ] [M] [ ]
-  - First solved: _____ | Last reviewed: _____
+  - Levels: [B] [x] [O] [x] [M] [x]
+  - First solved: 2026-03-02 | Last reviewed: _____
 
 - [ ] **Concept: Maps in Go** — Easy
   - Focus: Hash map internals (conceptual). How Go maps are declared, read, written, and checked for key existence.
