@@ -1,0 +1,10 @@
+# Compiled binaries
+dsa
+go-algo-patterns
+
+# Go build artifacts
+*.exe
+*.out
+
+# OS
+.DS_Store
